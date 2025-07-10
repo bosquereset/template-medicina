@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta name="author" content="Ariel Hernán de bosqueReset" />
+    <meta name="copyright" content="bosqueReset 2024" />
+    <meta property="og:image" content="" />
+    <meta name="robots" content="index" />
+    <meta name="robots" content="follow" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <title> UI TEMPLATE 01</title>
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./desktop.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+  <body>
+    <header id="nav-menu" aria-label="navigation bar">
+
+
+      <div class="container">
+
+        <div class="nav-start">
+          <a class="logo" href="#nav-menu">
+         <p> logo</p>
+          </a>
+          <nav class="menu">
+
+            
+            <ul class="menu-bar" id="navMenu">
+              <li>
+                <a class="nav-link" href="#nav-menu">Home</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#historia">Section 1</a>
+              </li>
+       
+              <li>
+                <button class="dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" 
+                aria-expanded="false" aria-label="discover"> 
+                  <p class="productos--txt"> Section 2 dropdown</p> 
+                  <i class="bx bx-chevron-down" 
+                  aria-hidden="true"></i>
+                </button></li>
+
+                <div id="dropdown2" class="dropdown">
+                  <ul role="menu">
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#microdosis"> product 1</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#cordyceps"> product 2</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#melena-de-leon"> product 3</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#reishi"> product 4</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#shiitake"> product 5</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#trametes-versicolor"> product 6</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#fungi-mix"> product 7</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#aceite-medicinal">  product 8</a>
+                    </li>
+                  </ul>
+                </div>
+          
+
+
+              <li>
+                <a class="nav-link" href="#testimonios"> Section 4</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#puntos-de-venta"> Section 5</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#contacto"> Section  6</a>
+              </li>
+              <li>
+                <a class="social-media" href="#" target="_blank">
+                  <img width="100" height="100" src="./ig.svg" alt="Instagram">
+                </a>
+              </li>
+            </ul>
+
+
+          </nav>
+        </div>
+
+        <div class="nav-end">
+          <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+            <i class="bx bx-menu" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+    </header>
+    <main class="animate__animated animate__fadeIn">
+<!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="#" type="video/mp4">
+</video>
+
+      <section id="portada" class="hero">
+        <img src="espora.svg" class="logo-esporaqi" width="640px" height="160px">
+      </section>
+
+
+      <section id="historia" class="us--section text-container">
+        <img src="./title.svg" width="320px" height="100px" class="section--text reveal">
+        <article class="us--info text-box reveal">  
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis accumsan, sodales ipsum in, volutpat diam. Morbi ultricies ac diam pulvinar posuere. </p>
+          <p>Aliquam sapien purus, commodo vel lorem ac, malesuada placerat enim. Phasellus sed dictum eros. Phasellus aliquam tortor quis sagittis egestas.</p>
+         
+          <a href="#" rel="noopener noreferrer">
+            <button> CTA
+            </button>
+          </a>
+
+        </article>
+
+      </section>
+
+      
+<section>
+  <img src="./picture.png" class="img--productos">
+</section>
+
+     
+
+<div class="medicina">
+  <img src="./title.svg" width="320px" height="100px" class="section--text reveal">   
+  </div>
+
+      <section id="productos" class="productos">
+
+        <div class="productos-grid reveal">
+          
+            <article id="product-name" class="producto">
+            <img src="./product.png" alt="Superalimento" class="producto--img">
+            <h2> product 1</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis accumsan, sodales ipsum in, volutpat diam. Morbi ultricies ac diam pulvinar posuere. </p>
+        <a href="#" rel="noopener noreferrer">
+              <button> cta</button>
+            </a>
+          </article>
+            <article id="product-name" class="producto">
+            <img src="./product.png" alt="Superalimento" class="producto--img">
+            <h2> product 2</h2>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis accumsan, sodales ipsum in, volutpat diam. Morbi ultricies ac diam pulvinar posuere. </p>
+             <a href="#" rel="noopener noreferrer">
+              <button> cta</button>
+            </a>
+          </article>
+            <article id="product-name" class="producto">
+            <img src="./product.png" alt="Superalimento" class="producto--img">
+           <h2> product 3</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis accumsan, sodales ipsum in, volutpat diam. Morbi ultricies ac diam pulvinar posuere. </p>
+        <a href="#" rel="noopener noreferrer">
+   <button> cta</button>
+            </a>
+          </article>
+          <article id="product-name" class="producto">
+         <img src="./product.png" alt="Superalimento" class="producto--img">
+                  <h2> product 4</h2>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis accumsan, sodales ipsum in, volutpat diam. Morbi ultricies ac diam pulvinar posuere. </p>
+            <a href="#" rel="noopener noreferrer">
+       <button> cta</button>
+            </a>
+          </article>
+
+           <article id="product-name" class="producto">
+           <img src="./product.png" alt="Superalimento" class="producto--img">
+                <h2> product 5</h2>
+                       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis accumsan, sodales ipsum in, volutpat diam. Morbi ultricies ac diam pulvinar posuere. </p>
+               <a href="#" rel="noopener noreferrer">
+     <button> cta</button>
+            </a>
+          </article>
+
+
+             <article id="product-name" class="producto">
+        <img src="./product.png" alt="Superalimento" class="producto--img">
+                <h2> product 6</h2>
+                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis accumsan, sodales ipsum in, volutpat diam. Morbi ultricies ac diam pulvinar posuere. </p>
+            <a href="#" rel="noopener noreferrer">
+        <button> cta</button>
+            </a>
+          </article>
+          <article id="product-name" class="producto">
+         <img src="./product.png" alt="Superalimento" class="producto--img">
+             <h2> product 7</h2>
+                   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis accumsan, sodales ipsum in, volutpat diam. Morbi ultricies ac diam pulvinar posuere. </p>
+         <a href="#" rel="noopener noreferrer">
+         <button> cta</button>
+            </a>
+          </article>
+          <article id="product-name" class="producto">
+          <img src="./product.png" alt="Superalimento" class="producto--img">
+               <h2> product 8</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis accumsan, sodales ipsum in, volutpat diam. Morbi ultricies ac diam pulvinar posuere. </p>
+           <a href="#" rel="noopener noreferrer">
+      <button> cta</button>
+            </a>
+          </article>
+
+        </div>
+
+      </section>
+
+    
+
+      <section id="testimonios" class="testimonial-slider">
+  <img src="./title.svg" width="320px" height="100px" class="section--text reveal">
+
+        <div class="slider-container reveal">
+          <div class="slider">
+            <article class="testimonial">
+              <img src="./testimonios.png" alt="" class="testimonial--img">
+              <blockquote>
+
+                <h3>subtitle</h3>
+                           <p>description</p>
+                <p>
+                  <strong> enfasis text</strong>
+                </p>
+              </blockquote>
+            </article>
+            <article class="testimonial">
+           <img src="./testimonios.png" alt="" class="testimonial--img">
+              <blockquote>
+        
+                <h3>subtitle</h3>
+                           <p>description</p>
+                <p>
+                  <strong> enfasis text</strong>
+                </p>
+              </blockquote>
+            </article>
+
+            <article class="testimonial">
+             <img src="./testimonios.png" alt="" class="testimonial--img">
+              <blockquote>
+     
+                <h3>subtitle</h3>
+                            <p>description</p>
+                <p>
+                 <strong> enfasis text</strong>
+                </p>
+              </blockquote>
+            </article>
+            <article class="testimonial">
+                <img src="./testimonios.png" alt="" class="testimonial--img">
+              <blockquote>
+ 
+               <h3>subtitle</h3>
+                           <p>description</p>
+                <p>
+                 <strong> enfasis text</strong>
+                </p>
+              </blockquote>
+            </article>
+            <article class="testimonial">
+          <img src="./testimonios.png" alt="" class="testimonial--img">
+              <blockquote>
+                <h3>subtitle</h3>
+                <p>description</p>
+                <p>
+                <strong> enfasis text</strong>
+                </p>
+              </blockquote>
+            </article>
+          </div>
+          <div class="slider--buttons">
+            <button class="prev" aria-label="Testimonio anterior"><img src="./mushu-left.svg" alt=""></button>
+            <button class="next" aria-label="Siguiente testimonio"><img src="./right.svg" alt=""></button>
+          </div>
+
+        </div>
+  
+
+
+      </section>
+
+
+      <section id="puntos-de-venta" class="ventas--section">
+  <img src="./title.svg" width="320px" height="100px" class="section--text reveal">
+
+        <article class="venta--info">
+          <div class="reveal">
+            <h3> subtitle</h3>
+            <p>
+              <strong> description</strong>
+            </p>
+            <p> adress</p>
+            <a href="#" target="_blank" rel="noopener noreferrer"> cta</a>
+          </div>
+        </article>
+
+
+        <article class="venta-grid-4 reveal">
+              <article class="venta--info">
+          <div class="reveal">
+            <h3> subtitle</h3>
+            <p>
+              <strong> description</strong>
+            </p>
+            <p> adress</p>
+            <a href="#" target="_blank" rel="noopener noreferrer"> cta</a>
+          </div>
+        </article>
+
+             <article class="venta--info">
+          <div class="reveal">
+            <h3> subtitle</h3>
+            <p>
+              <strong> description</strong>
+            </p>
+            <p> adress</p>
+            <a href="#" target="_blank" rel="noopener noreferrer"> cta</a>
+          </div>
+        </article>
+
+               <article class="venta--info">
+          <div class="reveal">
+            <h3> subtitle</h3>
+            <p>
+              <strong> description</strong>
+            </p>
+            <p> adress</p>
+            <a href="#" target="_blank" rel="noopener noreferrer"> cta</a>
+          </div>
+        </article>
+
+
+
+        </article>
+      </section>
+
+
+
+
+
+
+    </main>
+    
+    <footer id="contacto" class=" animate__animated animate__fadeIn">
+      <div class="footer-top">
+        <section class="contacto reveal">
+     <img src="./title.svg" width="320px" height="100px" class="section--text reveal">
+          <h3> DAYS</h3>
+          <p> HOURS</p>
+          <h3> subtitle</h3>
+          <p> description</p>
+        </section>
+        <section class="contacto reveal">
+  <img src="./title.svg" width="320px" height="100px" class="section--text reveal">
+          <h3>
+            <strong>subtitle enfasis</strong>
+          </h3>
+          <a class="wsp-button" href="#">
+            <p>cta</p>
+          </a>
+          <h3>
+        <strong>subtitle enfasis</strong>
+          </h3>
+          <a class="wsp-button" href="#">
+            <p>cta</p>
+          </a>
+          <h3>E - MAIL</h3>
+          <p> email adress </p>
+          <h3> adress</h3>
+          <p> phisical adress </p>
+          <p> country</p>
+        </section>
+      </div>
+      <div class="footer-middle">
+        <div class="feature">
+          <img src="./ICON-0.svg" alt="Carrito de compras">
+        </div>
+        <div class="feature">
+        <img src="./ICON-0.svg" alt="Carrito de compras">
+        </div>
+        <div class="feature">
+       <img src="./ICON-0.svg" alt="Carrito de compras">
+        </div>
+        <div class="feature">
+         <img src="./ICON-0.svg" alt="Carrito de compras">
+        </div>
+        <div class="feature">
+           <img src="./ICON-0.svg" alt="Carrito de compras">
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p> DESIGNED BY PAMPA LABS</p>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const slider = document.querySelector('.slider');
+        const prevButton = document.querySelector('.prev');
+        const nextButton = document.querySelector('.next');
+        const testimonials = document.querySelectorAll('.testimonial');
+        let currentIndex = 0;
+
+        function showTestimonial(index) {
+          slider.style.transform = `translateX(-${index * 100}%)`;
+        }
+        prevButton.addEventListener('click', () => {
+          currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+          showTestimonial(currentIndex);
+        });
+        nextButton.addEventListener('click', () => {
+          currentIndex = (currentIndex + 1) % testimonials.length;
+          showTestimonial(currentIndex);
+        });
+      });
+
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 100;
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+      window.addEventListener("scroll", reveal, {
+        passive: true
+      });      
+    </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

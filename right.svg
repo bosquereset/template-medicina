@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" viewBox="0 0 800 800">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill-opacity: 0;
+      }
+
+      .st0, .st1 {
+        fill: #999;
+      }
+    </style>
+  </defs>
+  <sodipodi:namedview id="namedview2" bordercolor="#000000" borderopacity="0.25" inkscape:current-layer="svg2" inkscape:cx="400" inkscape:cy="400" inkscape:deskcolor="#d1d1d1" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="1006" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="0" inkscape:window-y="0" inkscape:zoom="1.01125" pagecolor="#ffffff"/>
+  <g id="g2">
+    <g id="g1">
+      <rect id="rect1" class="st0" x="0" width="800" height="800"/>
+      <path id="path1" class="st1" d="M133.33,400c0,18.41,14.92,33.33,33.33,33.33h395.33s-121,145.33-121,145.33c-.02.02-.04.04-.05.06-11.75,14.17-9.79,35.19,4.39,46.94,6,4.97,13.54,7.68,21.33,7.67,9.91.02,19.32-4.38,25.67-12l166.67-200c1.12-1.59,2.12-3.26,3-5,2.33-1.67,2.33-2.67,2.33-4.33,1.51-3.82,2.3-7.89,2.33-12-.03-4.11-.82-8.18-2.33-12-2.33-1.67-2.33-2.67-2.33-4.33-.88-1.74-1.88-3.41-3-5l-166.67-200c-11.78-14.18-32.82-16.12-47-4.33-14.18,11.78-16.12,32.82-4.33,47l121,145.33H166.67c-18.41,0-33.33,14.92-33.33,33.33Z"/>
+    </g>
+  </g>
+</svg>
