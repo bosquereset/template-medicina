@@ -98,6 +98,11 @@ ul{
   align-items: center;
   text-align: center;
   z-index: 1;
+  background: linear-gradient(190deg,
+  oklch(60.809% 0.21483 301.761 / 0.01) 33%,
+oklch(23.503% 0.00003 271.152 / 0.9) 100%,
+  oklch(0.0969 0 0 / 1%) 66%,
+  oklch(0% 0 0 / 0.33) 10%);
 }
 
 .us--info{
@@ -162,7 +167,11 @@ ul{
     flex-direction: column;
     width: 100%;
     height: auto;
-    background-color: var(--background-dark);
+    background: linear-gradient(190deg,
+  oklch(60.809% 0.21483 301.761 / 0.01) 33%,
+oklch(23.503% 0.00003 271.152 / 0.9) 100%,
+  oklch(0.0969 0 0 / 1%) 66%,
+  oklch(0% 0 0 / 0.33) 10%);
     padding: 2.4rem;
     margin: 0 auto;
     justify-content: center;
@@ -260,7 +269,11 @@ nav ul li a {
   color: var(--text-color);
     padding: 1rem 1rem;
     margin: 0 auto;
-     background-color: var(--background-dark);
+  background: linear-gradient(190deg,
+  oklch(60.809% 0.21483 301.761 / 0.01) 33%,
+oklch(54.976% 0.21643 315.219 / 0.9) 100%,
+  oklch(0.0969 0 0 / 1%) 66%,
+  oklch(0% 0 0 / 0.33) 10%);
   }
 
 .hero article {
@@ -300,7 +313,11 @@ color: var(--text-color);
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type:y proximity;
-    background-color: var(--background-dark);
+   background: linear-gradient(190deg,
+  oklch(60.809% 0.21483 301.761 / 0.01) 33%,
+oklch(35.861% 0.15033 322.733 / 0.647) 100%,
+  oklch(0.0969 0 0 / 1%) 66%,
+  oklch(0% 0 0 / 0.33) 10%);
 }
 
 .productos h2{
@@ -433,7 +450,11 @@ color: var(--text-color);
     height: auto;
     padding: 2.22rem;
     margin: 0 auto;
-    background-color: var(--background-dark);
+   background: linear-gradient(190deg,
+  oklch(60.809% 0.21483 301.761 / 0.01) 33%,
+oklch(29.382% 0.13801 292.355 / 0.647) 100%,
+  oklch(0.0969 0 0 / 1%) 66%,
+  oklch(0% 0 0 / 0.33) 10%);
     color: var(--text-color);
     text-align: center;
     justify-content: center;
@@ -539,7 +560,11 @@ footer {
     flex-direction: column;
     width: 100%;
     height: auto;
-    background-color: var(--background-dark);
+    background: linear-gradient(190deg,
+  oklch(60.809% 0.21483 301.761 / 0.01) 33%,
+oklch(37.903% 0.08006 243.115 / 0.647) 100%,
+  oklch(0.0969 0 0 / 1%) 66%,
+  oklch(0% 0 0 / 0.33) 10%);
     padding: 2.8rem 0;
 }
 
