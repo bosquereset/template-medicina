@@ -6,8 +6,10 @@
     --secondary-color:#4D4D4D;
     --tertiary-color:  #1D1D1D;
     --cuaternary-color: #5D5D5D5D;
-    --text-color: #999; 
-    --background-dark: #333;
+    --text--dark: #999; 
+    --text--light: #111;
+    --background-dark: #111;
+    --background-light: #999;
 }
 
 *{
@@ -27,7 +29,7 @@ body {
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
     z-index: 1000;
-    background-color: var(--background-dark);
+    background-color: light-dark( var(--background-light), var(--background-dark));
     position: relative;
   }
 
@@ -46,12 +48,12 @@ body {
 
 
 .info--adaptogenos--text{
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .bx-chevron-down
 {
-   color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     font-size: 1.6rem;
     font-weight: 600;
 }
@@ -77,7 +79,7 @@ body {
 
 a{
     text-decoration: none;
-   color: var(--text-color);
+   color: light-dark( var(--text--light), var(--text--dark));
     cursor: pointer;
 }
 
@@ -132,7 +134,7 @@ oklch(23.503% 0.00003 271.152 / 0.9) 100%,
   text-justify: auto;
   margin: 0 auto;
   padding: 1.2rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
   line-height: 1.6rem;
   }
   
@@ -143,7 +145,7 @@ oklch(23.503% 0.00003 271.152 / 0.9) 100%,
   margin: 0 auto;
   border:none;
   border-radius: 1.2rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
   background-color: var(--cuaternary-color);
 }
 
@@ -156,7 +158,7 @@ oklch(23.503% 0.00003 271.152 / 0.9) 100%,
   margin: 0 auto;
   border:none;
   border-radius: 1.2rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
   background-color: var(--cuaternary-color);
 }
 
@@ -189,6 +191,7 @@ oklch(23.503% 0.00003 271.152 / 0.9) 100%,
     font-size: 1.2rem;
     margin: 0 auto;
     padding: 1.2rem;
+      color: light-dark( var(--text--light), var(--text--dark));
     }
     
 .catalogo--download{
@@ -198,7 +201,7 @@ oklch(23.503% 0.00003 271.152 / 0.9) 100%,
     margin: 0 auto;
     border:none;
     border-radius: 1.2rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     background-color: var(--background-dark);
 }
 
@@ -239,6 +242,7 @@ oklch(23.503% 0.00003 271.152 / 0.9) 100%,
     justify-content: center;
     margin: 0 auto;
     z-index: 1;
+      color: light-dark( var(--text--light), var(--text--dark));
     }
 
 nav ul {
@@ -252,7 +256,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     background-color: transparent;
 }
 
@@ -266,7 +270,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     text-align: center;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     padding: 1rem 1rem;
     margin: 0 auto;
   background: linear-gradient(190deg,
@@ -284,21 +288,21 @@ oklch(54.976% 0.21643 315.219 / 0.9) 100%,
     justify-content: center;
     align-items: center;
     text-align: center;
-color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     margin: 0 auto;
 }
 
 h1{
     font-size: 2.4rem;
     font-family: "Montserrat", sans-serif;
-  color: var(--text-color);
+   color: light-dark( var(--text--light), var(--text--dark));
     padding: 1.2rem;
 }
 
 .hero h1 {
     font-size: 2.4rem;
     font-family: "Montserrat", sans-serif;
-color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     text-shadow: .20rem .20rem .25rem var(--background-dark); 
 }
 
@@ -328,13 +332,13 @@ oklch(35.861% 0.15033 322.733 / 0.647) 100%,
     font-size: 1.333rem;
     margin-top: 2.4rem;
     margin-bottom: 0.5rem;
-   color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     padding: 1.2rem;
 }
 
 .descripcion {
     margin-bottom: 2rem;
-   color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .productos-grid {
@@ -361,7 +365,7 @@ oklch(35.861% 0.15033 322.733 / 0.647) 100%,
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
   font-weight: 600;
 }
 
@@ -392,7 +396,7 @@ oklch(35.861% 0.15033 322.733 / 0.647) 100%,
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
     margin: 1rem 0 0.5rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .producto p {
@@ -406,7 +410,7 @@ oklch(35.861% 0.15033 322.733 / 0.647) 100%,
     margin-bottom: 0.5rem;
     padding: 0 1rem;
     margin-bottom: 1rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .producto button {
@@ -455,7 +459,7 @@ oklch(35.861% 0.15033 322.733 / 0.647) 100%,
 oklch(29.382% 0.13801 292.355 / 0.647) 100%,
   oklch(0.0969 0 0 / 1%) 66%,
   oklch(0% 0 0 / 0.33) 10%);
-    color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -481,6 +485,7 @@ oklch(29.382% 0.13801 292.355 / 0.647) 100%,
     font-style: normal;
     font-size: 1.99rem;
     line-height: 2.4rem;
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .venta--section div p{
@@ -490,6 +495,7 @@ oklch(29.382% 0.13801 292.355 / 0.647) 100%,
     font-style: normal;
     font-size: 1.6rem;
     line-height: 2.4rem;
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 
@@ -507,7 +513,7 @@ height: auto;
     height: auto;
     padding: 1.6rem .111rem;
     margin: 0 auto;
-   color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     text-align: center;
     border-radius: 1.2rem;
     border-top: 1.2rem; /* corrected from 1.2rems to 1.2rem */
@@ -527,10 +533,12 @@ height: auto;
 .venta--info h3{
 font-size: 1.8rem;
 padding: .111rem .111rem;
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 .venta--info p{ 
 font-size: 1.2rem;
 padding: 1.2rem .111rem;
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .venta--info div a{
@@ -579,28 +587,28 @@ oklch(37.903% 0.08006 243.115 / 0.647) 100%,
 .footer-top h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     padding: .333rem;
 }
 
 .footer-top h3 {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     padding: .999rem;
 }
 
 .footer-top p {
     font-family: "Montserrat", sans-serif;
     font-size: 0.9rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     padding: .999rem;
 }
 
 .footer-middle {
     display: flex;
     justify-content: space-around;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     padding: 1.8rem 5%;
 }
 
@@ -617,7 +625,7 @@ oklch(37.903% 0.08006 243.115 / 0.647) 100%,
     font-family: "Montserrat", sans-serif;
     font-size: 0.8rem;
     margin-top: 0.5rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .footer-bottom {
@@ -627,11 +635,11 @@ oklch(37.903% 0.08006 243.115 / 0.647) 100%,
 }
 
 .footer-bottom p{
-      color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .footer-bottom a {
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     text-decoration: none;
 }
 
@@ -658,6 +666,7 @@ oklch(37.903% 0.08006 243.115 / 0.647) 100%,
     font-size: 1.666rem;
     line-height: 2.4rem;
     font-family: "Montserrat", sans-serif;
+      color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .horarios{
@@ -706,7 +715,7 @@ hr{
     font-style: normal;
     font-size: 1.333rem;
     margin-bottom: 0.01rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
 }
@@ -717,6 +726,7 @@ hr{
   padding: .333rem .888rem;
   text-align: left;
   font-size: .999rem; 
+    color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .product .citas div{
@@ -726,6 +736,7 @@ hr{
   text-align: left;
   font-size: .999rem; 
   font-style: italic;
+    color: light-dark( var(--text--light), var(--text--dark));
 }
 
 
@@ -735,6 +746,7 @@ hr{
     font-weight: 500;
     padding: 1rem;
     text-align: left;
+      color: light-dark( var(--text--light), var(--text--dark));
     
 }
 
@@ -745,6 +757,7 @@ hr{
     padding: .333rem .888rem;
     text-align: left;
     font-size: .999rem;
+      color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .product .note div p{
@@ -753,6 +766,7 @@ hr{
     padding: 1rem;
     text-align: left;
     font-size: .999rem;
+      color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .product .instructions div ul{
@@ -761,6 +775,7 @@ hr{
     padding: 1rem;
     text-align: left;
     font-size: .999rem;
+      color: light-dark( var(--text--light), var(--text--dark));
 }
 
 /* testimonios */
@@ -782,7 +797,7 @@ flex-direction: column;
 margin: 0 auto;
 align-items: center;
 justify-content: center;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 text-align: center;
 }
 
@@ -795,7 +810,7 @@ margin: 0 auto;
 padding: .111rem;
 align-items: center;
 justify-content: center;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 width: 90%;
 height: auto;
 }
@@ -828,7 +843,7 @@ text-align: center;
 blockquote {
 font-style: italic;
 margin: 0 auto;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
   
 cite {
@@ -836,7 +851,7 @@ display: block;
 margin-top: 0.222rem;
 font-style: normal;
 font-weight: bold;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
   
 .next, .prev {
@@ -924,7 +939,7 @@ padding-bottom:4.8rem ;
   font-weight: 600;
   font-style: normal;
   font-size: 1.333rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .info--adaptogenos article h3{
@@ -933,7 +948,7 @@ padding-bottom:4.8rem ;
   font-weight: 600;
   font-style: normal;
   font-size: 1.2rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 .info--adaptogenos article p{
@@ -942,13 +957,14 @@ padding-bottom:4.8rem ;
     font-weight: 400;
     font-style: normal;
     font-size: .999rem;
-    color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
 }
 
 
 h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+    color: light-dark( var(--text--light), var(--text--dark));
 }
 
 
@@ -964,7 +980,7 @@ h2 {
   
   .btn {
     display: block;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
     text-align: center;
     padding: 0.6rem 1.4rem;
     font-size: 1rem;
@@ -996,7 +1012,7 @@ h2 {
     padding: .8rem 0;
     position: fixed;
     z-index: 1000;
-    background-color: var(--background-dark);
+    background-color:light-dark( var(--background-light), var(--background-dark));
     transition: .5s;
   }
   
@@ -1004,14 +1020,14 @@ h2 {
 padding: 0 0;
 margin: 0 auto;
 transition: .5s;
-    background-color: var(--background-dark);
+    background-color: transparent;
   }
   
   .menu-bar li:first-child .dropdown {
     display: flex;
     flex-direction: initial;
     min-width: 480px;
-    background-color: var(--background-dark);
+    background-color: light-dark( var(--background-light), var(--background-dark));
   }
   
   .menu-bar li:first-child ul:nth-child(1) {
@@ -1024,8 +1040,8 @@ transition: .5s;
   
   .menu-bar .dropdown-link-title {
     font-weight: 600;
-    color: var(--text-color);
-    background-color: var(--background-dark);
+  color: light-dark( var(--text--light), var(--text--dark));
+    background-color: light-dark( var(--background-light), var(--background-dark));
   }
   
   .menu-bar .nav-link {
@@ -1033,14 +1049,14 @@ transition: .5s;
     font-weight: 500;
     letter-spacing: -0.6px;
     min-width: 6rem;
-   color: var(--text-color);
-    background-color: var(--background-dark);
+  color: light-dark( var(--text--light), var(--text--dark));
+    background-color: light-dark( var(--background-light), var(--background-dark));
   }
   
   .menu-bar .nav-link:hover,
   .dropdown-link:hover {
-  color: var(--text-color);
-    background-color: var(--background-dark);
+  color: light-dark( var(--text--light), var(--text--dark));
+    background-color: light-dark( var(--background-light), var(--background-dark));
   }
   
   .nav-start,
@@ -1067,7 +1083,7 @@ transition: .5s;
     opacity: 0;
     transform: scale(0.97);
     transition: 0.2s ease-in-out;
-    background-color: var(--background-dark);
+    background-color: light-dark( var(--background-light), var(--background-dark));
     margin: 0 auto;
     padding: 0 auto;
   }
@@ -1085,7 +1101,7 @@ transition: .5s;
    justify-content: center;
     gap: 0.95rem;
     font-size: 1rem;
-    background-color: var(--background-dark);
+    background-color: light-dark( var(--background-light), var(--background-dark));
     text-align: center;
   }
   
@@ -1105,7 +1121,7 @@ transition: .5s;
   
   .dropdown-link p {
     font-size: 0.8rem;
-    color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
   }
   
   .right-container {
@@ -1123,7 +1139,7 @@ transition: .5s;
   }
   
   .nav-link{
-    background-color: var(--background-dark);
+    background-color: light-dark( var(--background-light), var(--background-dark));
     text-align: center;
   }
   
@@ -1132,7 +1148,7 @@ transition: .5s;
     padding: 0.111rem;
     margin-left: 1rem;
     font-size: 1.9rem;
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
   }
 
 
@@ -1247,13 +1263,13 @@ transition: .5s;
 }
 
 .contact--us h2{
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
   padding: 1.6rem;
 }
 
 
 .contact--us h3{
-  color: var(--text-color);
+  color: light-dark( var(--text--light), var(--text--dark));
   padding: .999rem;
 }
 
