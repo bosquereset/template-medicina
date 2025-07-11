@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+      color-scheme: light dark;
     --primary-color: #3D3D3D3D; 
     --secondary-color:#4D4D4D;
     --tertiary-color:  #1D1D1D;
@@ -8,7 +9,6 @@
     --text-color: #999; 
     --background-dark: #333;
 }
-
 
 *{
     margin:0;
@@ -92,7 +92,6 @@ ul{
   flex-direction: column;
   width: 100%;
   height: auto;
-  background-color: var(--background-dark);
   padding: 2.4rem;
   margin: 0 auto;
   justify-content: center;
